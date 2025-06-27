@@ -122,15 +122,7 @@ Cron ➡️ HTTP Request ➡️ Error Trigger ➡️ Email
 
 ---
 
-##  Performance Metrics
 
-✅ **Subscriber Count**: 17 subscribers added on Mailchimp  
-✅ **Newsletter Editions**: 10+ editions published  
-✅ **Open Rates / Clicks**: See Mailchimp analytics screenshot  
-✅ **Uptime / Reliability**: n8n handles workflow scheduling and errors  
-✅ **System Status**: Manually verified via Mailchimp + Neon DB
-
----
 
 
 
