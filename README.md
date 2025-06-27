@@ -132,55 +132,7 @@ Cron ➡️ HTTP Request ➡️ Error Trigger ➡️ Email
 
 ---
 
-## 8️⃣ Release Notes
 
-### ✅ What Shipped
-
-- Multi-source scraping
-- GPT-based summarization
-- Mailchimp distribution
-- 10 published newsletter editions
-- n8n workflow with error handling
-- Subscription page on Mailchimp
-- 17 test subscribers
-
-### 🏗️ Architecture Overview
-
-- Python Flask app with modular scrapers
-- Playwright for dynamic web content
-- Neon for PostgreSQL-compatible storage
-- Mailchimp for subscriber and campaign management
-- n8n on cloud for orchestration
-- ngrok for local-to-cloud HTTP tunneling
-
-### ⚙️ Key Technical Decisions
-
-- Used Playwright over Selenium for stability  
-- Used Mailchimp for rapid subscriber onboarding  
-- Modularized scraping code for easy topic swaps  
-- LLM summarization to maintain consistent tone  
-- n8n error trigger for robust monitoring
-
-### 📊 Performance Benchmarks
-
-- Generates newsletter under 1 minute  
-- 95% automation (manual edits optional)  
-- Handles 1000+ subscribers (Mailchimp scales)
-
-### ⚠️ Known Issues
-
-- No dedicated admin dashboard yet  
-- Local dev requires ngrok for webhook exposure  
-- Playwright scraping might break if target sites change
-
-### 🛠️ Next Steps
-
-- Deploy on a server with a public IP  
-- Add a proper subscriber analytics dashboard  
-- Add sentiment tagging in newsletter  
-- Implement fallback LLM summarizer for redundancy
-
----
 
 
 
