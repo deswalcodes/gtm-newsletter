@@ -53,6 +53,11 @@ flowchart TD
   B --> C[Markdown Generation]
   C --> D[HTML Conversion]
   D --> E[Mailchimp Campaign API]
+  B --> F[Neon DB Save]
+  E --> G[Subscribers]
+  H[n8n] --> A
+  H --> E
+  H --> I[Error Notifications]
 ```
 ---
 
@@ -120,9 +125,3 @@ The project consists of:
 - Extend support for additional news sources  
 
 ---
-
-  B --> F[Neon DB Save]
-  E --> G[Subscribers]
-  H[n8n] --> A
-  H --> E
-  H --> I[Error Notifications]
