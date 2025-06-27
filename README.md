@@ -37,7 +37,7 @@ Welcome to the **Weekly AI Transcription Digest**, a production-grade, scalable,
 
 ```mermaid
 flowchart TD
-  A[Data Ingestion<br>(RSS, Scraping)] --> B[GPT Summarization]
+  A[Data Ingestion (RSS & Scraping)] --> B[GPT Summarization]
   B --> C[Markdown Generator]
   C --> D[HTML Formatter]
   D --> E[Mailchimp Campaign API]
