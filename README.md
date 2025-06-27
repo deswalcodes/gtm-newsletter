@@ -105,11 +105,10 @@ Use this ngrok URL in your n8n HTTP Request node to call the /generate-newslette
 ✅ Add an HTTP Request node pointing to your ngrok URL (POST request)
 ✅ Add an Error Trigger node connected to an Email node for error reporting
 ✅ Connect the nodes in this sequence:
----
+
 ```bash
 Cron ➡️ HTTP Request ➡️ Error Trigger ➡️ Email
 ```
----
 ✅ Save and activate your n8n workflow.
 -At this point, you should have a fully automated pipeline:
 
