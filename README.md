@@ -122,7 +122,7 @@ Cron ➡️ HTTP Request ➡️ Error Trigger ➡️ Email
 
 ---
 
-## 7️⃣ Performance Metrics
+##  Performance Metrics
 
 ✅ **Subscriber Count**: 17 subscribers added on Mailchimp  
 ✅ **Newsletter Editions**: 10+ editions published  
